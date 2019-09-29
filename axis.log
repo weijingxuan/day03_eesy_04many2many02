@@ -1,0 +1,28 @@
+2019-09-29 22:05:50,291 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-29 22:05:50,424 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-09-29 22:05:50,424 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-09-29 22:05:50,424 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-09-29 22:05:50,424 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-09-29 22:05:50,561 270    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-09-29 22:05:50,804 513    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 140799417.
+2019-09-29 22:05:50,805 514    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@8646db9]
+2019-09-29 22:05:50,808 517    [           main] DEBUG itheima.dao.AccountDao.findAll  - ==>  Preparing: select u.*,a.id as aid,a.uid,a.money from account a , user u where u.id=a.uid; 
+2019-09-29 22:05:50,841 550    [           main] DEBUG itheima.dao.AccountDao.findAll  - ==> Parameters: 
+2019-09-29 22:05:50,867 576    [           main] DEBUG itheima.dao.AccountDao.findAll  - <==      Total: 3
+2019-09-29 22:05:50,871 580    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@8646db9]
+2019-09-29 22:05:50,872 581    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@8646db9]
+2019-09-29 22:05:50,872 581    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 140799417 to pool.
+2019-09-29 22:07:55,152 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-09-29 22:07:55,272 120    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-09-29 22:07:55,272 120    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-09-29 22:07:55,272 120    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-09-29 22:07:55,272 120    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-09-29 22:07:55,388 236    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-09-29 22:07:55,604 452    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 140799417.
+2019-09-29 22:07:55,604 452    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@8646db9]
+2019-09-29 22:07:55,607 455    [           main] DEBUG itheima.dao.AccountDao.findAll  - ==>  Preparing: select u.*,a.id as aid,a.uid,a.money from account a , user u where u.id=a.uid; 
+2019-09-29 22:07:55,633 481    [           main] DEBUG itheima.dao.AccountDao.findAll  - ==> Parameters: 
+2019-09-29 22:07:55,657 505    [           main] DEBUG itheima.dao.AccountDao.findAll  - <==      Total: 3
+2019-09-29 22:07:55,663 511    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@8646db9]
+2019-09-29 22:07:55,663 511    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@8646db9]
+2019-09-29 22:07:55,663 511    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 140799417 to pool.
